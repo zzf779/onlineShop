@@ -26,9 +26,9 @@ public class ApplicationConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://zifan-instance.cuqs3l5shg0m.us-east-2.rds.amazonaws.com:3306/ecommerce?serverTimezone=UTC");
+		dataSource.setUrl("jdbc:mysql://*****.us-east-2.rds.amazonaws.com:3306/ecommerce?serverTimezone=UTC");
 		dataSource.setUsername("admin");
-		dataSource.setPassword("Value!779");
+		dataSource.setPassword("*****");
 
 		return dataSource;
 	}
